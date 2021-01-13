@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Noto Serif', serif;
+}
+section.shapes-area {
+    min-height: 100vh;
+    padding:100px 0px;
+    .container{
+        height: 100%;
+        .area-wrapper {
+            padding: 30px;
+            border: 1px solid #cecdcd;
+            border-radius: 10px;
+            text-align: center;
+            .shape-select{
+                h1{
+                    margin-bottom: 25px;
+                    font-size: 25px;
+            
+                }
+                .radio-wrapper{
+                    display: flex;
+                    justify-content: space-around;
+                    .form-check{
+                        label,input{
+                            cursor: pointer;
+                        }
+                        label{
+                            font-size: 18px;
+                            margin-top: -3px;
+
+                        }
+                    }
+                }
+                .parameter-wrapper{
+                    .shapes-input{
+                        form{
+                            .form-group {
+                                display: flex;
+                                align-items: center;
+                                margin-top: 30px;
+                                label{
+                                    margin-bottom: 0px;
+                                    margin-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

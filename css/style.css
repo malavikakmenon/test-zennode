@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif', serif;
+}
+
+section.shapes-area {
+  min-height: 100vh;
+  padding: 100px 0px;
+}
+
+section.shapes-area .container {
+  height: 100%;
+}
+
+section.shapes-area .container .area-wrapper {
+  padding: 30px;
+  border: 1px solid #cecdcd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section.shapes-area .container .area-wrapper .shape-select h1 {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+section.shapes-area .container .area-wrapper .shape-select .radio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.shapes-area .container .area-wrapper .shape-select .radio-wrapper .form-check label, section.shapes-area .container .area-wrapper .shape-select .radio-wrapper .form-check input {
+  cursor: pointer;
+}
+
+section.shapes-area .container .area-wrapper .shape-select .radio-wrapper .form-check label {
+  font-size: 18px;
+  margin-top: -3px;
+}
+
+section.shapes-area .container .area-wrapper .shape-select .parameter-wrapper .shapes-input form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+section.shapes-area .container .area-wrapper .shape-select .parameter-wrapper .shapes-input form .form-group label {
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
