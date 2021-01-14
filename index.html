@@ -79,10 +79,10 @@
                                     <form>
                                         <div class="form-group">
                                           <label for="radius-input">Radius</label>
-                                          <input type="number" class="form-control" id="radius-input" placeholder="Enter a radius">
+                                          <input type="number" required class="form-control" id="radius-input" placeholder="Enter a radius">
                                         </div>
                                         <button type="submit" class="btn btn-primary">Calculate area</button>
-                                        <input type="hidden" value="250">                              
+                                        <input type="hidden" class="area-limit" value="250">                              
 
                     
                                       </form>
@@ -91,10 +91,10 @@
                                     <form>
                                         <div class="form-group">
                                           <label for="length-input">Length</label>
-                                          <input type="number" class="form-control" id="length-input" placeholder="Enter a length">
+                                          <input type="number" required class="form-control" id="length-input" placeholder="Enter a length">
                                         </div>
                                         <button type="submit" class="btn btn-primary">Calculate area</button> 
-                                        <input type="hidden" value="250">                              
+                                        <input type="hidden" class="area-limit" value="250">                              
 
                                       </form>
                                 </div>
@@ -102,14 +102,14 @@
                                     <form>
                                         <div class="form-group">
                                           <label for="base-input">Base</label>
-                                          <input type="number" class="form-control" id="base-input" placeholder="Enter a base">
+                                          <input type="number" required class="form-control" id="base-input" placeholder="Enter a base">
                                         </div>
                                         <div class="form-group">
                                             <label for="height-input">Height</label>
-                                            <input type="number" class="form-control" id="height-input" placeholder="Enter a height">
+                                            <input type="number" required class="form-control" id="height-input" placeholder="Enter a height">
                                           </div>
                                         <button type="submit" class="btn btn-primary">Calculate area</button> 
-                                        <input type="hidden" value="250">                              
+                                        <input type="hidden" class="area-limit" value="250">                              
 
                                       </form>
                                 </div>
@@ -117,17 +117,24 @@
                                     <form>
                                         <div class="form-group">
                                           <label for="length-input">Length</label>
-                                          <input type="number" class="form-control" id="lengthr-input" placeholder="Enter a length">
+                                          <input type="number" required class="form-control" id="lengthr-input" placeholder="Enter a length">
                                         </div>
                                         <div class="form-group">
                                             <label for="breadth-input">Breadth</label>
-                                            <input type="number" class="form-control" id="breadth-input" placeholder="Enter a breadth">
+                                            <input type="number" required class="form-control" id="breadth-input" placeholder="Enter a breadth">
                                           </div>
                                         <button type="submit" class="btn btn-primary">Calculate area</button> 
-                                        <input type="hidden" value="250">                              
+                                        <input type="hidden" class="area-limit" value="250">                              
                                       </form>
                                 </div>
-                                <h3 class="area-answer"></h3>                               
+                                <div class="answer-wrapper">
+                                  <h3 class="area-answer"></h3>   
+                                  <div class="color-rep">
+                                    <p class="green"><i></i> If area greater than 250</p>
+                                    <p class="red"><i></i> If area lesser than 250</p>
+                                  </div>
+
+                                </div>
 
                             </div>
                             
